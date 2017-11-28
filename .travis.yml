@@ -12,11 +12,6 @@ os:
   - linux
   - osx
 
-branches:
-  only:
-    - master
-    - develop
-
 env:
   matrix:
     - BOGUS_JOB=true
